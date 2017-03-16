@@ -81,10 +81,10 @@ nombreux raccourcis claviers pour une navigation et une édition plus rapide.
 
 Vim est basé sur le concept de **modes**.
 
-Mode Commande  - pour se déplacer et exécuter des commandes (vim démarre dans ce mode)
-Mode Insertion - pour éditer le fichier
-Mode Visuel    - pour sélectionner du texte et réaliser des opérations dessus
-Mode Ex        - pour entrer des commandes avec ':'
+Mode Commande  - pour se déplacer et exécuter des commandes (vim démarre dans ce mode)   
+Mode Insertion - pour éditer le fichier   
+Mode Visuel    - pour sélectionner du texte et réaliser des opérations dessus   
+Mode Ex        - pour entrer des commandes avec ':'   
 
 ```
     i                # Mode insertion, avant le curseur
@@ -106,14 +106,14 @@ Mode Ex        - pour entrer des commandes avec ':'
 
 ## La "Grammaire" de Vim
 
-Vim peut être vu comme un ensemble de commande sous la forme
+Vim peut être vu comme un ensemble de commande sous la forme   
 'Verbe-Modificateur-Nom' :
 
-Verbe        - notre action
-Modificateur - la manière de faire l'action
-Nom          - l'objet désigné par l'action
+Verbe        - notre action   
+Modificateur - la manière de faire l'action   
+Nom          - l'objet désigné par l'action   
 
-Quelques exemples importants de 'Verbes', 'Modificateurs', et de 'Noms' :
+Quelques exemples importants de 'Verbes', 'Modificateurs', et de 'Noms' :   
 
 ```
     # 'Verbes'
@@ -151,6 +151,7 @@ Quelques exemples importants de 'Verbes', 'Modificateurs', et de 'Noms' :
 
 ## Quelques raccourcis et astuces
 
+
 ```
     >                # Indente la sélection d'un bloc
     <                # Dé-indente la sélection d'un bloc
@@ -162,7 +163,7 @@ Quelques exemples importants de 'Verbes', 'Modificateurs', et de 'Noms' :
 
 ## Macros
 
-Les macros sont des actions enregistrables.
+Les macros sont des actions enregistrables.   
 Quand on commence à enregistrer une macro, Vim enregistre **toutes** les actions
 et les commandes que vous utilisez, jusqu'à ce que vous arrêtiez d'enregistrer.
 Lorsque vous appelez une macro, elle applique exactement les mêmes actions et 
